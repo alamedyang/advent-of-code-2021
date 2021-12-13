@@ -209,13 +209,14 @@ const countDots = function () {
 // verticalFold(7);
 // horizontalFold(5);
 
-foldMap(folds[0]);
+// foldMap(folds[0]);
 
-// folds.forEach(function (foldInstruction) {
-// 	foldMap(foldInstruction);
-// })
-// logMapState(gameMap);
+folds.forEach(function (foldInstruction) {
+	foldMap(foldInstruction);
+})
 
-countDots(); // 95 is incorrect: READ THE INSTRUCTIONS!
+logMapState(gameMap);
 
-console.log("breakpoint plz")
+// countDots(); // 95 is incorrect: READ THE INSTRUCTIONS!
+
+// console.log("breakpoint plz")
